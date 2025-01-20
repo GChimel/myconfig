@@ -1,0 +1,70 @@
+{
+  Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Firefox Dark",
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.settings.applyToAllProfiles": ["editor.tabSize"],
+
+  // Editor settings
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.4,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrains Mono, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 120],
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "editor.minimap.enabled": false,
+  "material-icon-theme.activeIconPack": "nest",
+
+  // VSCode stuff
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "editor.inlineSuggest.enabled": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "postcss": true
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "symbols.hidesExplorerArrows": false,
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.indentSize": "tabSize",
+  "git.openRepositoryInParentFolders": "never",
+  "files.associations": {
+    "*.css": "css"
+  },
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.linux": {},
+  "codeium.enableCodeLens": false
+}
