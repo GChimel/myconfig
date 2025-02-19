@@ -6,6 +6,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.location": "top",
   "workbench.editor.showTabs": "multiple",
+  "workbench.sideBar.location": "right",
   "workbench.settings.applyToAllProfiles": ["editor.tabSize"],
 
   // Editor settings
